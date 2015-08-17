@@ -3,3 +3,45 @@ body{
    padding:0;
    background: url("background3.jpg") top center no-repeat;
 }
+
+#container {
+   width:50%; 
+   height:50%;
+   margin: 20px auto;
+   position: relative;
+
+
+}
+.square{ 
+   position: relative;
+   border:1px solid #0080D6;         
+   padding-bottom: 30%; 
+   height: 0;
+   width:30%; 
+   margin:1%; 
+   float:left; 
+   background-color: rgba(0,0,0, .75);
+   transition: background ease .3s;
+}
+
+.square:hover { 
+	background-color: #13324A;
+	cursor: pointer;
+
+}
+
+h1 {
+   left: 30px;
+   color: #E2F1E3;
+   font-size: 100px;
+   position: absolute;
+   padding-left: 10px;
+   left: 60px;
+   top: -40px; 
+}
+
+button {
+   background: #25B758;
+   color: white;
+   font-size: 20px;
+}
