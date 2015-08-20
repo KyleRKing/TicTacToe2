@@ -1,4 +1,54 @@
-//THIS IS THE NEW KYLE MASTER TIC TAC TOE
+
+
+$("h1").on("click", function()){
+	console.log(this);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 var player = 1;
 
 
@@ -123,5 +173,5 @@ chooseLetter[8].addEventListener("click",function(){
 })
 
 	// document.querySelector("reset").addEventListener("click", function("reset"))
-
+*/
 
