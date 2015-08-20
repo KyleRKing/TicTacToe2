@@ -3,7 +3,7 @@
 body{  
    margin:0; 
    padding:0;
-   background: url("background3.jpg") top center no-repeat;
+   background-color: gray;
 }
 
 #container {
@@ -23,23 +23,26 @@ body{
    margin:1%; 
    float:left; 
    background-color: rgba(0,0,0, .75);
+   color: white;
+   font-size: 20px;
    transition: background ease .3s;
 }
 
 .square:hover { 
-	background-color: #13324A;
-	cursor: pointer;
+    background-color: #13324A;
+    cursor: pointer;
 
 }
+.clickedX {
+   background: red;
+   border-style: ridge;
+}
 
-h1 {
-   left: 30px;
-   color: #E2F1E3;
-   font-size: 100px;
-   position: absolute;
-   padding-left: 10px;
-   left: 60px;
-   top: -40px; 
+.clickedY {
+   background: blue;
+   border-style: ridge;
+
+
 }
 
 button {
